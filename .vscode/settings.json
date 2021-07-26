@@ -1,4 +1,3 @@
 {
     "git.ignoreLimitWarning": true
 }
-//now delete App.js,App.css,App.test.js,logo.svg,reportWebVitals.js,setupTests.js and Create component folder
