@@ -249,7 +249,7 @@ function Contact(){
 export default Contact
 */
 
-
+/*
 //2.use step 2 of Contactcomp.js and step 4 of index.js
 
 import React from "react"
@@ -276,6 +276,6 @@ class Contact extends React.Component{
         ) 
     }
 }export default Contact
-
+*/
 
 //5 july 2021 end

@@ -236,7 +236,7 @@ import Contact from "./Contactcard/Contact.js"
 ReactDOM.render(<Contact />,document.getElementById('root'));
 */
 
-
+/*
 //4.
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -245,7 +245,7 @@ import MyInfo from "./component/MyInfo.js"
 import ShowDate from "./JSX_with_JS/ShowDate.js"
 import Contact from "./Contactcard/Contact.js"
 ReactDOM.render(<Contact />,document.getElementById('root'));
-
+*/
 
 /*
 //5.
