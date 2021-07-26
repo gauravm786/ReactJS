@@ -101,7 +101,7 @@ class Contactcomp extends React.Component{
 export default Contactcomp
 */
 
-/*
+
 //2.
 import React from "react"
 class Contactcomp extends React.Component{
@@ -118,6 +118,6 @@ class Contactcomp extends React.Component{
     }
 }
 export default Contactcomp
-*/
+
 
 //5 july 2021 end
