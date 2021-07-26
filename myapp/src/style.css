@@ -1,0 +1,19 @@
+
+/*
+//1.use step 1 of index.js and step 1 of Header.js
+create new CSS folder and name it as style.css and use it in className inside Header.js file
+*/
+
+body
+{
+margin: 0;
+}
+.navbar
+{
+    height: 100px;
+    background-color: #333;
+    color: aliceblue;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+}
