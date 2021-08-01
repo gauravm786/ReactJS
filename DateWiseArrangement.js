@@ -1441,3 +1441,380 @@ ReactDOM.render(<MyInfo />,document.getElementById('root'));
 */
 
 //5 july 2021 end
+
+
+//6 july 2021
+
+/*
+//1.
+//myapp>src>setState>ChangeColour.js
+
+//today we will update value of state
+//state is used to capture the event(action) of the particular component and if there is a change in a particular state then component is reloaded
+//today we will learn about setstate,the method setstate is available via this operator
+//setstate is used to add or update the property,it means exisiting property is updated and new property is added to the state
+
+import React from "react"
+class Color extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            brand:"Ferrari",
+            Color:"red",
+            year:"2020"
+        }
+    }
+    
+  changeTheColor(){
+
+  }
+
+    render(){
+        return(
+            <div>
+                <h1>I have a car of brand {this.state.brand}</h1>
+                <p>of Color {this.state.Color} of the year {this.state.year}</p>
+                <button type="button" onClick={this.changeTheColor}>Change the color to green</button>
+            </div>
+        )
+        
+    }
+}
+export default Color
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+ReactDOM.render(<Color />,document.getElementById('root'));
+*/ 
+
+/*
+//2.
+//myapp>src>setState>ChangeColour.js
+
+import React from "react"
+class Color extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            brand:"Ferrari",
+            Color:"red",
+            year:"2020"
+        }
+    }
+    
+  changeTheColor=()=>{
+      this.setState({Color:"green"})
+    }
+
+    render(){
+        return(
+            <div>
+                <h1>I have a car of brand {this.state.brand}</h1>
+                <p>of Color {this.state.Color} of the year {this.state.year}</p>
+                <button type="button" onClick={this.changeTheColor}>Change the color to green</button>
+            </div>
+        )
+        
+    }
+}
+export default Color
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+ReactDOM.render(<Color />,document.getElementById('root'));
+*/
+
+
+/*
+//3.
+//myapp>src>setState>ChangeColour.js
+
+import React from "react"
+class Color extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            brand:"Ferrari",
+            Color:"red",
+            year:"2020"
+        }
+    }
+    
+  changeTheColor=()=>{
+      this.setState({Color:"green",name:"Gaurav"})
+    }
+
+    render(){
+        return(
+            <div>
+                <h1>Im {this.state.name} and i have a car of brand {this.state.brand}</h1>
+                <p>of Color {this.state.Color} of the year {this.state.year}</p>
+                <button type="button" onClick={this.changeTheColor}>Change the color to green</button>
+            </div>
+        )
+        
+    }
+}
+export default Color
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+ReactDOM.render(<Color />,document.getElementById('root'));
+*/
+
+
+/*
+//4.
+//myapp>src>setState>Form.js
+
+import React from "react"
+class Form extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            Username:"",
+            Age:null
+        }
+    }
+    
+setName=(event)=>{
+      this.setState({username:event.target.value})
+    }
+
+
+    render(){
+        return(
+        <form>
+            <h1>Hello {this.state.username} and your age is {this.state.age}</h1>
+            <p>Username:</p>
+            <input type="text" name="username" onChange={this.setName} />
+
+    
+        </form>
+        )
+        
+    }
+}
+export default Form
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/
+
+/*
+//5.
+//myapp>src>setState>Form.js
+
+import React from "react"
+class Form extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            Username:"",
+            Age:null
+        }
+    }
+    
+setName=(event)=>{
+      this.setState({username:event.target.value})
+    }
+
+setAge=(event)=>{
+    this.setState({age:event.target.value})
+}    
+
+    render(){
+        return(
+        <form>
+            <h1>Hello {this.state.username} and your age is {this.state.age}</h1>
+            <p>Username:</p>
+            <input type="text" name="username" onChange={this.setName} />
+
+            <p>Age:</p>
+            <input type="text" name="age" onChange={this.setAge} />
+        </form>
+        )
+        
+    }
+}
+export default Form
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+/*
+
+
+/*
+//6.
+//myapp>src>setState>Form.js
+
+import React from "react"
+class Form extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            Username:"",
+            Age:null
+        }
+    }
+    
+setName=(event)=>{
+      this.setState({username:event.target.value})
+    }
+
+setAge=(event)=>{
+    this.setState({age:event.target.value})
+}    
+
+setFormData=(event)=>{                                
+    this.setState({[event.target.name]:event.target.value})
+}
+
+setForm=(event)=>{
+    event.preventDefault()
+    alert("Hello "+this.state.username) 
+}
+    render(){
+        return(
+        <form onSubmit={this.setForm}>
+            <h1>Hello {this.state.username} and your age is {this.state.age}</h1>
+            <p>Username:</p>
+            <input type="text" name="username" onChange={this.setFormData} />
+
+            <p>Age:</p>
+            <input type="text" name="age" onChange={this.setFormData} /> 
+            <input type="submit" />
+        </form>
+        )
+        
+    }
+}
+export default Form
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/
+
+
+/*
+//7.
+//myapp>src>setState>Form.js
+
+import React from "react"
+class Form extends React.Component{
+    constructor(props){
+        super(props)
+        this.state={
+            Username:"",
+            Age:null
+        }
+    }
+    
+setName=(event)=>{
+      this.setState({username:event.target.value})
+    }
+
+setAge=(event)=>{
+    this.setState({age:event.target.value})
+}    
+
+setFormData=(event)=>{                                
+   if(event.target.name==="age" && event.target.value<=18){
+       this.setState({errorMsg:<strong>Please Enter age above 18</strong>})
+       return
+   }
+   this.setState({errorMsg:""})
+   this.setState({[event.target.name]:event.target.value})
+}
+
+setForm=(event)=>{
+    event.preventDefault()
+    alert("Hello "+this.state.username) 
+}
+    render(){
+        return(
+        <form onSubmit={this.setForm}>
+            <h1>Hello {this.state.username} and your age is {this.state.age}</h1>
+            <p>Username:</p>
+            <input type="text" name="username" onChange={this.setFormData} />
+
+            <p>Age:</p>
+            <input type="text" name="age" onChange={this.setFormData} /> 
+            {this.state.errorMsg}
+            <input type="submit" />
+        </form>
+        )
+        
+    }
+}
+export default Form
+
+
+//myapp>src>index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/
+
+//6 july 2021 end
