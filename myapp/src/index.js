@@ -259,3 +259,94 @@ ReactDOM.render(<MyInfo />,document.getElementById('root'));
 */
 
 //5 july 2021 end
+
+
+//6 july 2021
+
+/*
+//1.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+ReactDOM.render(<Color />,document.getElementById('root'));
+*/
+
+/*
+//2.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+ReactDOM.render(<Color />,document.getElementById('root'));
+*/
+
+/*
+//3.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+ReactDOM.render(<Color />,document.getElementById('root'));
+*/
+
+/*
+//4.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/
+
+/*
+//5.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/
+
+/*
+//6.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/
+
+/*
+//7.
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import MyInfo from "./component/MyInfo.js"
+import ShowDate from "./JSX_with_JS/ShowDate.js"
+import Contact from "./Contactcard/Contact.js"
+import Color from "./setState/ChangeColour.js"
+import Form from "./setState/Form.js"
+ReactDOM.render(<Form />,document.getElementById('root'));
+*/

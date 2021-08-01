@@ -121,3 +121,8 @@ export default Contactcomp
 */
 
 //5 july 2021 end
+
+
+//today we will update value of state
+//state is used to capture the event(action) of the particular component and if there is a change in a particular state then component is reloaded
+//today we will learn about setstate,the method setstate is available via this operator
